@@ -19,5 +19,3 @@ module ActionMailer
     end
   end
 end
-
-ActionMailer::Base.register_observer(LitmusMailer::MailObserver)
